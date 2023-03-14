@@ -20,7 +20,6 @@ public class Student extends CollegePerson implements LearningPerson{
         super(name, surname, collegeId);
         this.academicYear = academicYear;
     }
-    // necessary override of the interface's abstract method
     @Override
     public void studyAtHome() {
         System.out.println("I am studying in the year " + academicYear);
@@ -31,4 +30,3 @@ public class Student extends CollegePerson implements LearningPerson{
         System.out.println("Academic year: " + academicYear);
     }
 }
-

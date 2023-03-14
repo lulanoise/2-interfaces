@@ -11,6 +11,3 @@ interface TeachingPerson{
 
     void teachToOtherPeople();
 }
-
-
-    

@@ -8,7 +8,7 @@ public class CollegePerson {
     public String surname;
     public int collegeId;
 
-    public CollegePerson(String name, String surname, int collegeId) { // metodo costruttore
+    public CollegePerson(String name, String surname, int collegeId) {
         this.name = name;
         this.surname = surname;
         this.collegeId = collegeId;
@@ -23,6 +23,3 @@ public class CollegePerson {
         System.out.println("collegeId " + collegeId);
     }
 }
-
-
-

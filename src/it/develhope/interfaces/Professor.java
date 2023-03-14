@@ -18,7 +18,6 @@ public class Professor extends CollegePerson implements TeachingPerson{
         this.teachingSubject = teachingSubject;
 
     }
-    // necessary override of the interface's abstract method
     @Override
     public void teachToOtherPeople() {
         System.out.println("I am teaching " + teachingSubject);
@@ -30,7 +29,3 @@ public class Professor extends CollegePerson implements TeachingPerson{
         System.out.println("Teaching subject: " + teachingSubject);
     }
         }
-
-
-
-    

@@ -17,14 +17,11 @@ public class Assistant extends CollegePerson implements LearningPerson, Teaching
         super(name, surname, collegeId);
         this.isGoingToBeAPhD = isGoingToBeAPhD;
     }
-
-    // mandatory abstract method override
     @Override
     public void teachToOtherPeople() {
         System.out.println("I am an assistant and I am teaching");
 
     }
-    // mandatory abstract method override
     @Override
     public void studyAtHome() {
         System.out.println("I am an assistant and I am learning");
@@ -35,13 +32,3 @@ public class Assistant extends CollegePerson implements LearningPerson, Teaching
         System.out.println("The Assistant is going to be a PhD: " + isGoingToBeAPhD);
     }
 }
-
-
-
-
-
-
-
-
-
-

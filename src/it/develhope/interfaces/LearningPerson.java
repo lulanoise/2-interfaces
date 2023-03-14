@@ -12,6 +12,3 @@ interface LearningPerson{
 
     void studyAtHome();
 }
-
-
-
